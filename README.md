@@ -55,7 +55,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/fedelanYTCLUB/Sacura_Bot && cd Sacura_Bot
+git clone https://github.com/fedelanYTCLUB/Goku_Bot-MD && cd Goku_Bot-MD
 ```
 
 ```bash
@@ -83,7 +83,7 @@ npm start
 ❒ Abre Termux y navega al directorio del bot:
    
    ```bash
-    cd Yuki_Suou-Bot
+    cd Goku_Bot-MD
    ```
 
 ❒ Inicia el bot nuevamente:
@@ -97,7 +97,7 @@ npm start
 > Si después de instalar el bot en Termux y iniciar la session del bot (deseas poner tu número es la lista de owner pon este comando:
 
    ```bash
-    cd Yuki_Suou-Bot && nano settings.js
+    cd Goku_Bot-MD && nano settings.js
    ```
 
 </details>
@@ -116,15 +116,15 @@ npm start
 <details>
 <summary><b> ✰ Contáctos</b></summary>
 
-* WhatsApp: [`Aquí`](https:/Wa.me/5212202410659)
-* Correo: [`Aquí`](thekingdestroy507@gmail.com)
+* WhatsApp: [`Aquí`](https:/Wa.me/5491156178758)
+* Correo: [`Aquí`](fedelanyt20@gmail.com)
 
 </details>
 
 ---
 
 
-### **`ᥫ᭡ Propietario`**
+### **`⚘ CREADOR & EDITOR**
 <a
-href="https://github.com/The-King-Destroy"><img src="https://github.com/The-King-Destroy.png" width="130" height="130" alt="
-ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜"/></a>
+href="https://github.com/fedelanYTCLUB"><img src="https://github.com/fedelanYTCLUB.png" width="130" height="130" alt="
+fede"/></a>
