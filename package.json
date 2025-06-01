@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/The-King-Destroy/Yuki_Suou-Bot",
+  "homepage": "https://github.com/fedelanYTCLUB/Goku_Bot-MD",
   "author": {
-    "name": "The-King-Destroy"
+    "name": "fedelanYT"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/The-King-Destroy/Yuki_Suou-Bot.git"
+    "url": "git+https://github.com/fedelanYTCLUB/Goku_Bot-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/The-King-Destroy/Yuki_Suou-Bot/issues"
+    "url": "https://github.com/fedelanYTCLUB/Goku_Bot-MD/issues"
   },
   "license": "MIT",
   "dependencies": {
