@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
     }
 
     const video = searchData.data[0]; // Primer resultado
-    const textoBonito = `> ✦ 𝖠𝗇𝗒𝖺 𝖥𝗈𝗋𝗀𝖾𝗋 𝖯𝗅𝖺𝗒 ✦`;
+    const textoBonito = `> ✦ ᴍɪᴋᴜ-ʙᴏᴛ 𝖯𝗅𝖺𝗒 ✦`;
 
     // Enviar texto decorado y reaccionar de inmediato
     await conn.sendMessage(m.chat, {
