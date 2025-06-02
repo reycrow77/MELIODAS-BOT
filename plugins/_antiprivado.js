@@ -9,7 +9,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings?.[conn?.user?.jid] || {};
   
-  if (m.chat === '120363416409380841@newsletter') return true;
+  if (m.chat === '120363402097425674@newsletter) return true;
 
   if (bot.antiPrivate && !isOwner && !isROwner) {
     await m.reply(
@@ -17,7 +17,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
       `> Por ahora los comandos solo están activos en grupos.\n` +
       `> Si quieres usar la bot, únete a este grupo:\n` +
       `> \`https://chat.whatsapp.com/FX6eYrqXtt9L76NDpOm2K7\`\n\n` +
-      `> Te esperamos 💖`,
+      `> Te esperamos en nuestra comunidad 💙`,
       false,
       { mentions: [m.sender] }
     );
