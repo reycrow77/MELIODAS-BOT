@@ -49,7 +49,7 @@ align: 'center',
 colors: ['magentaBright']
 })
 
-say(`Developed By • The-King-Destroy`, {
+say(`Developed By • fedelanyt`, {
 font: 'console',
 align: 'center',
 colors: ['blueBright']
