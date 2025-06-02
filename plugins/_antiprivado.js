@@ -16,7 +16,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
       `> 𝗛𝗼𝗹𝗮 @${m.sender.split`@`[0]} ✨\n\n` +
       `> Por ahora los comandos solo están activos en grupos.\n` +
       `> Si quieres usar la bot, únete a este grupo:\n` +
-      `> \`https://chat.whatsapp.com/DzoM73E8Fb7BvnUwquQuGr\`\n\n` +
+      `> \`https://chat.whatsapp.com/FX6eYrqXtt9L76NDpOm2K7\`\n\n` +
       `> Te esperamos 💖`,
       false,
       { mentions: [m.sender] }
