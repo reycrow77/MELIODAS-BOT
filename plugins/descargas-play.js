@@ -13,7 +13,7 @@ const handler = async (m, { conn, text, command }) => {
 
     if (!video) return m.reply('❌ No se encontró ningún resultado.');
 
-    const encabezado = `> ✦ 𝖠𝗇𝗒𝖺 𝖥𝗈𝗋𝗀𝖾𝗋 𝖯𝗅𝖺𝗒𝟤 ✦`;
+    const encabezado = `> ✦ Miku Bot 𝖯𝗅𝖺𝗒𝟤 ✦`;
 
     const textoBonito = `${encabezado}`;
 
@@ -22,7 +22,7 @@ const handler = async (m, { conn, text, command }) => {
       contextInfo: {
         externalAdReply: {
           title: `♪ ${video.title}`,
-          body: `🌸 Anya Forger Play2`,
+          body: `🌸 Miku Bot Play2`,
           thumbnailUrl: video.thumbnail,
           sourceUrl: video.url,
           mediaType: 2,
