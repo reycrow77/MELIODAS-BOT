@@ -15,9 +15,9 @@ let handler = async (m, { conn, args }) => {
   const moneda = global.moneda || 'monedas';
 
   let txt = `
-  *💮💙🥢⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯🥢💙💮*
+  *☔💙🥢⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯🥢💙☔*
 > Holis, Soy ${botname}\n   ${(conn.user.jid == global.conn.user.jid ? '*͜͡☔ P͜͡r͜͡i͜͡n͜͡c͜͡i͜͡p͜͡a͡l 🅞🅕🅒 🐊*͜͡' : '*͜͡🍫 S͜͡u͜͡b͜͡ B͜͡o͜͡t͜͡ 🅢 💜*͜͡')}
-*❤️‍🔥 COMUNIDAD OFC:* 
+*🦋 COMUNIDAD OFC:* 
 https://chat.whatsapp.com/FX6eYrqXtt9L76NDpOm2K7
 
 Aquí tienes la lista de mis comandos:
