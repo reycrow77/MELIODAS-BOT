@@ -55,7 +55,7 @@ global.etiqueta = '✦ ғᴇᴅᴇʟᴀɴʏᴛ'
 global.moneda = '✿ 𝖢𝗁𝗈𝖼𝗈𝗅𝖺𝗍𝖾𝗌 ✿'
 global.welcom1 = '❍ Edita Con El Comando setwelcome'
 global.welcom2 = '❍ Edita Con El Comando setbye'
-global.banner = 'https://files.catbox.moe/ylrwlr.jpg'
+global.banner = 'https://github.com/FedelanYTCLUB.png'
 global.avatar = 'https://files.catbox.moe/u43tlz.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
