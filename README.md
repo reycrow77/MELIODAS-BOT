@@ -38,7 +38,7 @@
 </details>
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/FedelanYTCLUB/count.svg" />
+  <img src="https://profile-counter.glitch.me/FedelanYTCLUB/Goku_Bot-MD/count.svg" />
   <p>👁️ Visitantes del Repositorio 👁️</p>
 </div>
 
