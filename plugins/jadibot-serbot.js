@@ -30,7 +30,7 @@ let crm3 = "SBpbmZvLWRvbmFyLmpz"
 let crm4 = "IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz"
 let drm1 = ""
 let drm2 = ""
-let rtx = `╭˚₊‧୨ *⟡ Anya Forger ⟡* ୧‧₊˚╮
+let rtx = `╭˚₊‧୨ *⟡ Miku - Bot ⟡* ୧‧₊˚╮
 
 ꒰ 🩷 *Modo Sub-Bot (QR)* 🩷 ꒱
 
@@ -44,7 +44,7 @@ para convertirte en un 𖦹 *Sub-Bot Temporal* 𖦹!
 ୨୧ Este código expira en *45 segundos* ⏱️
 
 ╰────────♡─────────╯`;
-let rtx2 = `╭˚₊‧୨ *⟡ Anya Forger ⟡* ୧‧₊˚╮
+let rtx2 = `╭˚₊‧୨ *⟡ Miku - Bot ⟡* ୧‧₊˚╮
 
 ꒰ 💌 *Modo Sub-Bot (Código)* 💌 ꒱
 
