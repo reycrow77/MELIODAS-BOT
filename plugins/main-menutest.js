@@ -26,14 +26,14 @@ https://chat.whatsapp.com/FX6eYrqXtt9L76NDpOm2K7
 
 Aquí tienes la lista de mis comandos:
 
-╭┈────── ❃
+╭─────➪
 │ 👤 *Usuario:* @${userId.split('@')[0]}
 │ 🪷 *Modo:* Privado
 │ 🕒 *Activa hace:* ${uptime}
 │ 👥 *Usuarios:* *${totalreg}*
 │ 🤍 *Comandos:* ${totalCommands}
 │ 🍫 *Baileys:* MekBaileys
-╰─➤ ✎
+╰─━━━─────━━━─➤ ✎
 
 > Puedes crear tu *SUB-BOT* con #code o #qr ☔
 
