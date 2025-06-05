@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 showAdAttribution: true,
                 title: 'Hola, soy el creador de Miku-Bot.',
                 body: dev,
-                thumbnailUrl: 'https://files.catbox.moe/my09no.jpg',
+                thumbnailUrl: 'https://files.catbox.moe/xlc90u.jpg',
                 sourceUrl: 'https://wa.me/5491156178758?text=Hola+quiero+adquirir+bot',
                 mediaType: 1,
                 renderLargerThumbnail: true
