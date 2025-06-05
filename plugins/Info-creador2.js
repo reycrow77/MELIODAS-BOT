@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let list = [{
         displayName: "Diego",
         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: diego
-\nitem1.TEL;waid=573015270038:573015270038\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: fedelanyt20@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/fedelanyt\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Argentina 🇦🇷;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+\nitem1.TEL;waid=573015270038:573015270038\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: Buelvasdiego662@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/diegods7631\nitem3.X-ABLabel:Internet\nitem4.ADR:;; colombia 🇨🇴;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {
@@ -42,6 +42,6 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
 handler.help = ['owner2', 'creador2'];
 handler.tags = ['info'];
-handler.command = /^(owner2|creator2|creador2|dueño2)$/i;
+handler.command = /^(owner2|creator2|creador2|staff2)$/i;
 
 export default handler;
