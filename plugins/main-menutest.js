@@ -39,15 +39,15 @@ Aquí tienes la lista de mis comandos:
 
 > ･::ﾟ･ﾟ☆ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭 ☆･ﾟ:･ﾟ::･> 
 Comandos para ver el estado e información de la Bot.
-*꒰ 🍀 ꒱ #menulogos*
+*꒰ 🍀 ꒱* #menulogos
 » ver el menu de logos y estilos.
-*꒰ 🍀 ꒱ #help #menu*
+*꒰ 🍀 ꒱* #help • #menu
 » Ver la lista de comandos drl Bot.
-*꒰ 🍀 ꒱ #owner*
+*꒰ 🍀 ꒱* #owner • #staff
 » ver el contacto del owner.
-*꒰ 🍀 ꒱ #owner2*
+*꒰ 🍀 ꒱* #owner2 • #staff2
 » ver el contacto del staff2.
-*꒰ 🍀 ꒱ #owner3*
+*꒰ 🍀 ꒱* #owner3 • #staff3
 » ver el contacto del staff3.
 *꒰ 🍀 ꒱* #uptime • #runtime
 » Ver tiempo activo o en línea de la Bot.
