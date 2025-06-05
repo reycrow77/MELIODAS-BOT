@@ -40,8 +40,8 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     await conn.sendMessage(m.chat, { text: txt });
 };
 
-handler.help = ['owner', 'creador'];
+handler.help = ['owner3', 'creador3'];
 handler.tags = ['info'];
-handler.command = /^(owner|creator|creador|dueño)$/i;
+handler.command = /^(owner3|creator3|creador3|staff3)$/i;
 
 export default handler;
