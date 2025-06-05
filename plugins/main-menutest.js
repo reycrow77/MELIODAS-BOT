@@ -33,7 +33,7 @@ Aquí tienes la lista de mis comandos:
 │ 👥 *Usuarios:* *${totalreg}*
 │ 🤍 *Comandos:* ${totalCommands}
 │ 🍫 *Baileys:* MekBaileys
-╰─━━━─────━━━─➤ ✎
+╰─━━━─────━━━─➤
 
 > Puedes crear tu *SUB-BOT* con #code o #qr ☔
 
