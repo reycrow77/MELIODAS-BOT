@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         contextInfo: {
             externalAdReply: {
                 showAdAttribution: true,
-                title: 'һᥱᥣᥣ᥆, і'm 𝗍һᥱ ᥆𝖿𝖿іᥴіᥲᥣ ᥴrᥱᥲ𝗍᥆r ᥆𝖿 mіkᥙ-ᑲ᥆𝗍..',
+                title: 'һᥱᥣᥣ᥆, і'm 𝗍һᥱ ᥆𝖿𝖿іᥴіᥲᥣ ᥴrᥱᥲ𝗍᥆r ᥆𝖿 mіkᥙ ᑲ᥆𝗍..',
                 body: dev,
                 thumbnailUrl: 'https://files.catbox.moe/xlc90u.jpg',
                 sourceUrl: 'https://wa.me/5491156178758?text=Hola+quiero+adquirir+bot',
