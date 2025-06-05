@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let list = [{
         displayName: "fedelanYT",
         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: fedelanYT 
-\nitem1.TEL;waid=5491156178758:5491156178758\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: cristianescobar.vx@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/dev.criss_vx\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Peru 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+\nitem1.TEL;waid=5491156178758:5491156178758\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: fedelanyt20@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/fedelanyt\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Argentina 🇦🇷;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {
@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         contextInfo: {
             externalAdReply: {
                 showAdAttribution: true,
-                title: 'Hola, soy el creador de Miku-Bot.',
+                title: 'һᥱᥣᥣ᥆, і'm 𝗍һᥱ ᥆𝖿𝖿іᥴіᥲᥣ ᥴrᥱᥲ𝗍᥆r ᥆𝖿 mіkᥙ-ᑲ᥆𝗍..',
                 body: dev,
                 thumbnailUrl: 'https://files.catbox.moe/xlc90u.jpg',
                 sourceUrl: 'https://wa.me/5491156178758?text=Hola+quiero+adquirir+bot',
