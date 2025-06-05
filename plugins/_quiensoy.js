@@ -1,5 +1,5 @@
 const handler = async (m, { conn }) => {
-    const userNumber = m.sender; // Número completo, ejemplo: 51921826291@s.whatsapp.net
+    const userNumber = m.sender; // Número completo, ejemplo: 5491156178758@s.whatsapp.net
     await conn.sendMessage(
         m.chat,
         { text: `Tu número es:\n${userNumber}\n\nSolo la parte antes de @ es: ${userNumber.split('@')[0]}` },
