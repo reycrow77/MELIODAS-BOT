@@ -22,7 +22,7 @@ let handler = async (m, { conn, args }) => {
 ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
 > Holis, Soy ${botname}\n   ${(conn.user.jid == global.conn.user.jid ? '*͜͡☔ P͜͡r͜͡i͜͡n͜͡c͜͡i͜͡p͜͡a͡l 🅞🅕🅒 🐊*͜͡' : '*͜͡🍫 S͜͡u͜͡b͜͡ B͜͡o͜͡t͜͡ 🅢 💙*͜͡')}
 *🦋 ᥴ᥆mᥙᥒіძᥲძ ᥆𝖿ᥴ:* 
-https://chat.whatsapp.com/FX6eYrqXtt9L76NDpOm2K7
+https://chat.whatsapp.com/GgPP07cL54iL6C1lrwX0fz
 
 Aquí tienes la lista de mis comandos:
 
