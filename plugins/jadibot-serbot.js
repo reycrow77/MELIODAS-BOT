@@ -58,8 +58,7 @@ para conectarte como un *Sub-Bot Temporal*!
 
 ୨୧ ⭒ *No uses tu cuenta principal, por seguridad*
 
-╰────────♡─────────╯
-let imagenUrl = 'https://qu.ax/PYQOU.jpg';
+╰────────♡─────────╯';
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
