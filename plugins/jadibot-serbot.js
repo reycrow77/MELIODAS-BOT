@@ -58,7 +58,7 @@ para conectarte como un *Sub-Bot Temporal*!
 
 ୨୧ ⭒ *No uses tu cuenta principal, por seguridad*
 
-╰────────♡─────────╯'
+╰────────♡─────────╯`;
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
