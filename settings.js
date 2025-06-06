@@ -16,15 +16,15 @@ global.botNumber = '' //Ejemplo: 573218138672
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['5491156178758', '🜲 Propietario 🜲', true],
-  ['51920826559', 'josue', true],
-  ['573015270038', 'Diego', true],
+  ['18293142989', '💎 CREADOR 💎', true],
+  ['18293142989', 'Félix #2', true],
+  ['18293142989', 'Félix #3', true],
 ];
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.mods = []
-global.suittag = ['5491156178758', '51920826559', '573015270038'] 
+global.suittag = ['18293142989', '18293142989', '18293142989'] 
 global.prems = []
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -32,46 +32,46 @@ global.prems = []
 global.libreria = 'Baileys'
 global.baileys = 'V 6.7.16' 
 global.vs = '2.2.0'
-global.nameqr = 'Miku-Bot'
-global.namebot = '✿◟ᴍɪᴋᴜ ʙᴏᴛ◞✿'
+global.nameqr = 'MAKIMA-V2'
+global.namebot = '𐔌̷ִ̼̼͊🩵 ̸̷᮫໊᷐͢᷍ᰍ 𝐌A͜͡𝐊𝖎𝐌ꪖ ✧ 𝐁ꪮ𝚃 𝐕2'
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '✿ ᴍɪᴋᴜ ʙᴏᴛ ✿'
-global.botname = '❀ ᴍɪᴋᴜ-ʙᴏᴛ ❀'
-global.wm = '↬ ᴍɪᴋᴜ ʙᴏᴛ • ᴄʀᴇᴀᴛᴇᴅ ʙʏ ғᴇᴅᴇ'
-global.author = 'ᴍᴀᴅᴇ ʙʏ ғᴇᴅᴇʟᴀɴʏᴛ'
-global.dev = 'ᴅᴇᴠ﹕ғᴇᴅᴇʟᴀɴʏᴛ | ᴍɪᴋᴜ ʙᴏᴛ'
-global.textbot = '✧ ᴍɪᴋᴜ ʙᴏᴛ • ᴘᴏᴡᴇʀᴇᴅ ʙʏ ғᴇᴅᴇʟᴀɴʏᴛ ✧'
-global.etiqueta = '✦ ғᴇᴅᴇʟᴀɴʏᴛ'
+global.packname = '𐔌̷ִ̼̼͊🩵 ̸̷᮫໊᷐͢᷍ᰍ 𝐌A͜͡𝐊𝖎𝐌ꪖ'
+global.botname = '𐔌̷ִ̼̼͊🩵 ̸̷᮫໊᷐͢᷍ᰍ 𝐌A͜͡𝐊𝖎𝐌ꪖ'
+global.wm = 'Powered By Deymoon Club'
+global.author = 'Made with Deymoon Club'
+global.dev = 'Powered By Félic Manuel'
+global.textbot = 'Made with Félix Manuel'
+global.etiqueta = '✦ Félix Manuel'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.moneda = '✿ 𝖢𝗁𝗈𝖼𝗈𝗅𝖺𝗍𝖾𝗌 ✿'
+global.moneda = 'Diamantes'
 global.welcom1 = '❍ Edita Con El Comando setwelcome'
 global.welcom2 = '❍ Edita Con El Comando setbye'
-global.banner = 'https://files.catbox.moe/a9e4ux.jpg'
-global.avatar = 'https://files.catbox.moe/a9e4ux.jpg'
+global.banner = 'https://files.catbox.moe/92lqow.jpg'
+global.avatar = 'https://files.catbox.moe/snngs4.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.gp1 = 'https://chat.whatsapp.com/KPbFD3ONgiY1OB2YJ5SDUt'
-global.comunidad1 = 'https://chat.whatsapp.com/GgPP07cL54iL6C1lrwX0fz'
-global.channel = 'https://whatsapp.com/channel/0029VbApe6jG8l5Nv43dsC2N'
-global.channel2 = 'https://whatsapp.com/channel/0029VbApe6jG8l5Nv43dsC2N'
+global.gp1 = 'https://chat.whatsapp.com/GZdFpo11kIQ54pa1lgUiQ9'
+global.comunidad1 = 'https://chat.whatsapp.com/BhafPVUdbSG0UN5pJrNTXh'
+global.channel = 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'
+global.channel2 = 'https://whatsapp.com/channel/0029Vb6Se5bD8SDzUBHuQ43f'
 global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
-global.correo = 'fedelanyt20@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VbApe6jG8l5Nv43dsC2N';
+global.correo = 'm500ultrabot@gmail.com'
+global.cn ='https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
-ch1: '120363416409380841@newsletter',
+ch1: '120363401697981206@newsletter',
 }
 global.multiplier = 70
 
