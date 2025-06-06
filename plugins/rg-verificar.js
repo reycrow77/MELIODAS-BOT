@@ -1,103 +1,87 @@
-import db from '../lib/database.js'
-import fs from 'fs'
-import PhoneNumber from 'awesome-phonenumber'
 import { createHash } from 'crypto'
-import fetch from 'node-fetch'
-import moment from 'moment-timezone'
-
-const Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
-
+import PhoneNumber from 'awesome-phonenumber'
+// import _ from "lodash"
+let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
-  const who = m.mentionedJid?.[0] || (m.fromMe ? conn.user.jid : m.sender)
-  const mentionedJid = [who]
-
-  const pp = await conn.profilePictureUrl(who, 'image').catch(() => 'https://files.catbox.moe/xr2m6u.jpg')
-  const user = global.db.data.users[m.sender]
-  const name2 = conn.getName(m.sender)
-
-  if (user.registered) {
-    return m.reply(`✦.── Ya estás Registrado ──.✦\n\n¿Deseas volver a registrarte?\nUtiliza *${usedPrefix}unreg* para borrar tu registro.`)
+let user = global.db.data.users[m.sender]
+let name2 = conn.getName(m.sender)
+  let delirius = await axios.get(`https://delirius-apiofc.vercel.app/tools/country?text=${PhoneNumber('+' + m.sender.replace('@s.whatsapp.net', '')).getNumber('international')}`)
+  let paisdata = delirius.data.result
+  let mundo = paisdata ? `${paisdata.name} ${paisdata.emoji}` : 'Desconocido'
+  let perfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://files.catbox.moe/mqtxvp.jpg')
+  let bio = 0, fechaBio
+ // let who2 = m.isGroup ? _.get(m, "mentionedJid[0]", m.quoted?.sender || m.sender) : m.sender
+  let sinDefinir = '😿 Es privada'
+  let biografia = await conn.fetchStatus(m.sender).catch(() => null)
+  if (!biografia || !biografia[0] || biografia[0].status === null) {
+  bio = sinDefinir
+  fechaBio = "Fecha no disponible"
+  } else {
+  bio = biografia[0].status || sinDefinir
+  fechaBio = biografia[0].setAt ? new Date(biografia[0].setAt).toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", year: "numeric", }) : "Fecha no disponible"
   }
+if (user.registered === true) throw `*『✦』Ya estas registrado\n\nQuieres volver a registrarte?\n\nUsa el siguiente comando: #unreg*`
+if (!Reg.test(text)) throw `*『✦』El comando ingresado es incorrecto, usalo de la siguiente manera:*\n\n#reg *Nombre.edad*\n\n\`\`\`Ejemplo:\`\`\`\n#reg *${name2}.18*`
+let [_, name, splitter, age] = text.match(Reg)
+if (!name) throw '*『✦』No puedes registrarte sin nombre, el nombre es obligatorio. Inténtelo de nuevo.*'
+if (!age) throw '*『✦』No puedes registrarte sin la edad, la edad es opcional. Inténtelo de nuevo.*'
+if (name.length >= 30) throw '*『✦』El nombre no debe de tener mas de 30 caracteres.*' 
+age = parseInt(age)
+if (age > 999) throw '*『🩵』Este pendejo quiere jugar al bot.*'
+if (age < 5) throw '*『🩵』aww, que lindo bb.\n\nTe adoptare.*'
+user.name = name.trim()
+user.age = age
+user.descripcion = bio
+// user.persona = age >= 18? '(Persona adulta)' : '(Persona joven)'
+user.regTime = + new Date
+user.registered = true
+global.db.data.users[m.sender].money += 5
+global.db.data.users[m.sender].chocolates += 15
+global.db.data.users[m.sender].exp += 245
+global.db.data.users[m.sender].joincount += 12
+let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 20)        
+m.react('🩵') 
+let regbot = `╔━━▣━━━━⌬⌬━━▣
+┃Nombre: ${name}
+┃Edad: ${age}
+┗━━▣━━━━⌬⌬━━▣
 
-  if (!Reg.test(text)) {
-    return m.reply(`✦.── Formato Incorrecto ──.✦\n\nUso correcto:\n*${usedPrefix + command} nombre.edad*\nEjemplo:\n*${usedPrefix + command} ${name2}.18*`)
+《🎁》 𝐑𝖾𝖼𝗼𝗆𝗉𝖾𝗇𝗌𝗮𝗌
+
+╔⌬━━━━━━━━━━━━
+┃💎Diamantes: 100
+┃
+┃💰Makicoins: 200
+┃
+┃✨Experiencia: 1000
+┃
+┃🎫Tokens: 22
+╚⌬━━━━━━━━━━━━
+
+   ━━━SIGUENOS━━━
+
+╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹
+https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
+
+> 𝕻𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 𝖥𝖾𝗅𝗂𝗑 𝗆𝖺𝗇𝗎𝖾𝗅`
+await conn.sendMessage(m.chat, {
+            text: regbot,
+            contextInfo: {
+externalAdReply: {
+            showAdAttribution: true,
+            title: 'Nuevo registro',
+            body: '🩵 ࣭࣭͛𝆬ᩧּ֮⃝ૢ𝆭֟ Makima-Bot',
+            thumbnailUrl: imagen3,
+            sourceUrl: redes,
+            previewType: "PHOTO",
+            mediaType: 1,
+            renderLargerThumbnail: true
+        }}
+    })
   }
-
-  let [_, name, __, age] = text.match(Reg)
-  if (!name) return m.reply('✦.── Error ──.✦\n\n𔖲𔖮𔖭 El nombre no puede estar vacío.')
-  if (!age) return m.reply('✦.── Error ──.✦\n\n𔖲𔖮𔖭 La edad no puede estar vacía.')
-  if (name.length >= 100) return m.reply('✦.── Nombre muy largo ──.✦\n\n𔖲𔖮𔖭 El nombre no debe tener más de 100 caracteres.')
-
-  age = parseInt(age)
-  if (age > 1000) return m.reply('✦.── Edad demasiado alta ──.✦\n\n𔖲𔖮𔖭 Wow, el abuelo quiere jugar con el bot.')
-  if (age < 5) return m.reply('✦.── Edad muy baja ──.✦\n\n𔖲𔖮𔖭 ¿Un bebé programando bots?')
-
-  // Registro
-  user.name = `${name}✓`.trim()
-  user.age = age
-  user.regTime = +new Date()
-  user.registered = true
-
-  user.coin += 46
-  user.exp += 310
-  user.joincount += 25
-
-  const sn = createHash('md5').update(m.sender).digest('hex').slice(0, 20)
-
-  const regbot = `
-✦ 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗔 𝗗 𝗢 ✦
-•━━━━━━◇━━━━━━•
-> ᰔᩚ Nombre » *${name}*
-> ✎ Edad » *${age} años*
-> 🆔 ID » *${sn}*
-•━━━━━━◇━━━━━━•
-❀ 𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-> • ⛁ *Monedas* » +46
-> • ✰ *Experiencia* » +310
-> • ❖ *Tokens* » +25
-•━━━━━━◇━━━━━━•
-> ꒰ Bienvenido/a ꒱
-https://chat.whatsapp.com/FoVnxJ64gYV6EZcfNVQUfJ
-`.trim()
-
-  await m.react('❤️‍🔥')
-
-  await conn.sendMessage(m.chat, {
-    text: regbot
-  }, { quoted: m })
-
-  // Notificación al grupo oficial
-  const grupoNotificacion = '120363401705046190@g.us'
-  const mensajeNotificacion = `
-✦ 𝗡𝗨𝗘𝗩𝗢 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗢 ✦
-•━━━━━━◇━━━━━━•
-> ᰔᩚ Nombre » *${name}*
-> ✎ Edad » *${age} años*
-> 🆔 ID » *${sn}*
-•━━━━━━◇━━━━━━•
-❀ Recompensas:
-> • ⛁ Monedas » +46
-> • ✰ Experiencia » +310
-> • ❖ Tokens » +25
-•━━━━━━◇━━━━━━•
-🕒 Registrado el: ${moment().format('YYYY-MM-DD HH:mm:ss')}
-`.trim()
-
-  try {
-    if (global.conn?.sendMessage) {
-      const ppGroup = await conn.profilePictureUrl(who, 'image').catch(() => pp)
-      await global.conn.sendMessage(grupoNotificacion, {
-        image: { url: ppGroup || pp },
-        caption: mensajeNotificacion
-      })
-    }
-  } catch (e) {
-    console.error('Error al enviar notificación al grupo:', e)
-  }
-}
-
 handler.help = ['reg']
 handler.tags = ['rg']
-handler.command = ['verify', 'verificar', 'reg', 'register', 'registrar']
+handler.command = ['verify', 'verificar', 'reg', 'register', 'registrar'] 
 
 export default handler
