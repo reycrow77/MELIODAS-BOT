@@ -54,17 +54,17 @@ global.moneda = '✿ 𝖢𝗁𝗈𝖼𝗈𝗅𝖺𝗍𝖾𝗌 ✿'
 global.welcom1 = '❍ Edita Con El Comando setwelcome'
 global.welcom2 = '❍ Edita Con El Comando setbye'
 global.banner = 'https://files.catbox.moe/a9e4ux.jpg'
-global.avatar = 'https://github.com/FedelanYTCLUB.png'
+global.avatar = 'https://files.catbox.moe/a9e4ux.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.gp1 = 'https://chat.whatsapp.com/CDw7hpI30WjCyKFAVLHNhZ'
-global.comunidad1 = 'https://chat.whatsapp.com/I0dMp2fEle7L6RaWBmwlAa'
-global.channel = 'https://whatsapp.com/channel/0029VbAfPu9BqbrEMFWXKE0d'
-global.channel2 = 'https://whatsapp.com/channel/0029VbAfPu9BqbrEMFWXKE0d'
+global.gp1 = 'https://chat.whatsapp.com/KPbFD3ONgiY1OB2YJ5SDUt'
+global.comunidad1 = 'https://chat.whatsapp.com/GgPP07cL54iL6C1lrwX0fz'
+global.channel = 'https://whatsapp.com/channel/0029VbApe6jG8l5Nv43dsC2N'
+global.channel2 = 'https://whatsapp.com/channel/0029VbApe6jG8l5Nv43dsC2N'
 global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
-global.correo = 'thekingdestroy507@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T';
+global.correo = 'fedelanyt20@gmail.com'
+global.cn ='https://whatsapp.com/channel/0029VbApe6jG8l5Nv43dsC2N';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
