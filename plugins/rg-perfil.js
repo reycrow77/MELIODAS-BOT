@@ -1,66 +1,48 @@
-import moment from 'moment-timezone';
-import PhoneNumber from 'awesome-phonenumber';
-import fetch from 'node-fetch';
+import PhoneNumber from 'awesome-phonenumber'
+import fetch from 'node-fetch'
+var handler = async (m, { conn }) => {
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => imagen1)
+let { premium, level, chocolates, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
+let username = conn.getName(who)
+let noprem = `
+╭─╮︹︹⊹︹︹⊹︹︹⊹︹︹╭─╮
+├ׁ̟̇      ⚘݄𝐏𝖾𝗋𝗳𝗂𝗅 𝖽𝗲𝗅 𝗎𝗌𝗎𝖺𝗿𝗂𝗈 
+├ׁ̟̇             ${taguser}
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
 
-let handler = async (m, { conn, args }) => {
-    let userId;
-    if (m.quoted && m.quoted.sender) {
-        userId = m.quoted.sender;
-    } else {
-        userId = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
-    }
+╭─╮︹︹⊹︹︹⊹︹︹⊹︹︹
+┃Nombre: ${username}
+┃País: ${global.userNationality}
+┃Registrado: ${registered ? '✅': '❌'}
+╰━─━─━─≪≪✠≫≫─━─━─━╯
 
-    let user = global.db.data.users[userId];
+「🎁」RECURSOS:
 
-    let name = conn.getName(userId);
-    let cumpleanos = user.birth || 'No especificado';
-    let genero = user.genre || 'No especificado';
-    let pareja = user.marry || 'Nadie';
-    let description = user.description || 'Sin Descripción';
-    let exp = user.exp || 0;
-    let nivel = user.level || 0;
-    let role = user.role || 'Sin Rango';
-    let coins = user.coin || 0;
-    let bankCoins = user.bank || 0;
+✨ XP: ${exp}
+💎 *Diamantes:* ${chocolates}
+💫 *Nivel:* ${level}
+✉️ Rango: ${role}
+╰━━━━━━━━━━━━━
 
-    let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1745522645448.jpeg');
+💫 *Premium:* ${premium ? '✅': '❌'}
+`.trim()
+let prem = `╭──⪩ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ⪨
+│⧼👤⧽ *Usuario:* 「${username}」
+│⧼💌⧽ *Registrado:* ${registered ? '✅': '❌'}
+│⧼🔱⧽ *VIP:* Vip 👑
+╰───⪨
 
-    let profileText = `
-「✿」 *Perfil* ◢@${userId.split('@')[0]}◤
-${description}
-
-✦ Edad » ${user.age || 'Desconocida'}
-♛ *Cumpleaños* » ${cumpleanos}
-⚥ *Género* » ${genero}
-♡ *Casado con* » ${pareja}
-
-☆ *Experiencia* » ${exp.toLocaleString()}
-❖ *Nivel* » ${nivel}
-✎ Rango » ${role}
-
-⛁ *Coins Cartera* » ${coins.toLocaleString()} ${moneda}
-⛃ *Coins Banco* » ${bankCoins.toLocaleString()} ${moneda}
-❁ *Premium* » ${user.premium ? '✅' : '❌'}
-  `.trim();
-
-    await conn.sendMessage(m.chat, { 
-        text: profileText,
-        contextInfo: {
-            mentionedJid: [userId],
-            externalAdReply: {
-                title: '✧ Perfil de Usuario ✧',
-                body: dev,
-                thumbnailUrl: perfil,
-                mediaType: 1,
-                showAdAttribution: true,
-                renderLargerThumbnail: true
-            }
-        }
-    }, { quoted: m });
-};
-
-handler.help = ['profile'];
-handler.tags = ['rg'];
-handler.command = ['profile', 'perfil'];
-
-export default handler;
+╭────⪩ 𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 ⪨
+│⧼💎⧽ *Diamantes:* ${chocolates}
+│⧼🔰⧽ *Nivel:* ${level}
+│⧼💫⧽ *Exp:* ${exp}
+│⧼⚜️⧽ *Rango:* ${role}
+╰───⪨ * ᵐᵃᵏⁱᵐᵃ ᵇᵒᵗ* ⪩`.trim()
+conn.sendFile(m.chat, pp, 'perfil.jpg', `${premium ? prem.trim() : noprem.trim()}`, m, rcanal, { mentions: [who] })
+}
+handler.help = ['profile']
+handler.register = true
+handler.tags = ['rg']
+handler.command = ['profile', 'perfil']
+export default handler
