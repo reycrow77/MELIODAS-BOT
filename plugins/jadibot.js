@@ -103,7 +103,7 @@ El Bot principal no se responsabiliza de su uso.
 
 ${replyMessage}
 
-╰─⌗ Aɴʏᴀ Fᴏʀɢᴇʀ ⌗─╯`;
+╰─💙 Miku-Bot 💙─╯`;
 
       await _envio.sendMessage(m.chat, {
         text: responseMessage,
