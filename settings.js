@@ -16,9 +16,9 @@ global.botNumber = '' //Ejemplo: 573218138672
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['18293142989', '💎 CREADOR 💎', true],
-  ['18293142989', 'Félix #2', true],
-  ['18293142989', 'Félix #3', true],
+  ['573015270038', '💎 CREADOR 💎', true],
+  ['573015270038, ' 𝐇𝐚𝐫𝐯𝐚𝐤 #2', true],
+  ['573015270038', ' 𝐇𝐚𝐫𝐯𝐚𝐤 #3', true],
 ];
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -32,29 +32,29 @@ global.prems = []
 global.libreria = 'Baileys'
 global.baileys = 'V 6.7.16' 
 global.vs = '2.2.0'
-global.nameqr = 'MAKIMA-V2'
-global.namebot = '𐔌̷ִ̼̼͊🩵 ̸̷᮫໊᷐͢᷍ᰍ 𝐌A͜͡𝐊𝖎𝐌ꪖ ✧ 𝐁ꪮ𝚃 𝐕2'
+global.nameqr = 'MELIODAS-BOT'
+global.namebot = '𐔌̷ִ̼̼͊🖤 ̸̷᮫໊᷐͢᷍ᰍ MELIODAS ✧ 𝐁ꪮ𝚃'
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '𐔌̷ִ̼̼͊🩵 ̸̷᮫໊᷐͢᷍ᰍ 𝐌A͜͡𝐊𝖎𝐌ꪖ'
-global.botname = '𐔌̷ִ̼̼͊🩵 ̸̷᮫໊᷐͢᷍ᰍ 𝐌A͜͡𝐊𝖎𝐌ꪖ'
-global.wm = 'Powered By Deymoon Club'
-global.author = 'Made with Deymoon Club'
-global.dev = 'Powered By Félic Manuel'
-global.textbot = 'Made with Félix Manuel'
-global.etiqueta = '✦ Félix Manuel'
+global.packname = '𐔌̷ִ̼̼͊🖤 ̸̷᮫໊᷐͢᷍ᰍ MELIODAS'
+global.botname = '𐔌̷ִ̼̼͊🖤 ̸̷᮫໊᷐͢᷍ᰍ MELIODAS'
+global.wm = 'Powered By tsukuyomi Club'
+global.author = 'Made with tsukuyomi Club'
+global.dev = 'Powered By  𝐇𝐚𝐫𝐯𝐚𝐤-OFC'
+global.textbot = 'Made with  𝐇𝐚𝐫𝐯𝐚𝐤-OFC'
+global.etiqueta = '✦  𝐇𝐚𝐫𝐯𝐚𝐤-OFC'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.moneda = 'Diamantes'
 global.welcom1 = '❍ Edita Con El Comando setwelcome'
 global.welcom2 = '❍ Edita Con El Comando setbye'
-global.banner = 'https://files.catbox.moe/92lqow.jpg'
-global.avatar = 'https://files.catbox.moe/snngs4.jpg'
+global.banner = 'https://files.catbox.moe/135t4n.jpg'
+global.avatar = 'https://files.catbox.moe/135t4n.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -63,7 +63,7 @@ global.comunidad1 = 'https://chat.whatsapp.com/BhafPVUdbSG0UN5pJrNTXh'
 global.channel = 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'
 global.channel2 = 'https://whatsapp.com/channel/0029Vb6Se5bD8SDzUBHuQ43f'
 global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
-global.correo = 'm500ultrabot@gmail.com'
+global.correo = 'harvak200@gmail.com'
 global.cn ='https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
