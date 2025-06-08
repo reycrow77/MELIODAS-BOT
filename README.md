@@ -99,5 +99,5 @@ Este bot es creado por  𝐇𝐚𝐫𝐯𝐚𝐤-OFC 🏆.
 </details>
 
 ---
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Este+es+el+Repositorio+de+MELIODAS+BOT-+2.0;Creado+por+ 𝐇𝐚𝐫𝐯𝐚𝐤+OFC;👑🖤+Meliodasbot🖤👑;👑🖤Meliodasbot🖤👑)](https://git.io/typing-svg)
+   '''bash
+=Este+es+el+Repositorio+de+MELIODAS+BOT+2.0;Creado+por+𝐇𝐚𝐫𝐯𝐚𝐤+OFC;👑🖤+Meliodasbot🖤👑;👑🖤Meliodasbot🖤👑)
