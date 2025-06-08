@@ -1,8 +1,8 @@
-> 🩵 MAKIMA 2.0 VERSION V2
+> 🖤 MELIODAS-BOT-OFC-
 
-<h1 align="center">🩵 ̸̷᮫໊᷐͢᷍ᰍ MAKIMA BOT MD</p>
+<h1 align="center">🖤 ̸̷᮫໊᷐͢᷍ᰍ MELIODAS BOT MD</p>
 <p>
-        <img src= "https://files.catbox.moe/petcot.jpg">
+        <img src= "https://files.catbox.moe/qncm3c.jpg">
     </p>
 
 ---
@@ -21,7 +21,7 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 
 ---
 
-## **`🩵 Sky Ultra Plus 🩵`**
+## **`🖤 Sky Ultra Plus 🖤`**
 <a href="https://dash.skyultraplus.com/"><img src="https://files.catbox.moe/62pqnw.jpg" height="100px"></a>
 
 <details>
@@ -34,12 +34,12 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 
 ---
 
-### **`🩵 TERMUX MAKIMA`**
+### **`🖤TERMUX MELIODAS`**
 
 <details>
  <summary><b>:paperclip: Instalacion por termux</b></summary>
 
-<img src="https://files.catbox.moe/ksv9f3.jpg" alt="MakimaBot" style="width: 100%; height: auto; max-width: 500px;">
+<img src="https://files.catbox.moe/ve352p.jpg">
 
 > Nota: Copia y pega los comandos en termux uno por uno.
 ```bash
@@ -51,7 +51,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/mantis-has/Makima && cd Makima
+git clone https://github.com/mantis-has/Meliodas && cd Meliodas
 ```
 
 ```bash
@@ -72,14 +72,14 @@ npm start
 
 > Si aparece (Y/I/N/O/D/Z) [default=N] ? usa la letra "y" + "ENTER" para continuar con la instalación del bot.
 
-### **🩵 Como activar en caso de que se detiene en Termux**
+### **🖤 Como activar en caso de que se detiene en Termux**
 
 > Si después de instalar el bot en Termux se detiene (pantalla en blanco, pérdida de conexión a Internet, reinicio del dispositivo), sigue estos pasos:
 
 Abre Termux y navega al directorio del bot:
    
    ```bash
-    cd Makima-Bot-MD
+    cd Meliodas-Bot-MD
    ```
 
 Inicia el bot nuevamente:
@@ -92,12 +92,12 @@ Inicia el bot nuevamente:
 
 ---
 
-### **`🩵 CREADOR`**
+### **`🖤CREADOR`**
 
-Este bot es creado por Felix Manuel, el creador de M500 ULTRA BOT 🏆.
+Este bot es creado por  𝐇𝐚𝐫𝐯𝐚𝐤-OFC 🏆.
 
 </details>
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Este+es+el+Repositorio+de+MAKIMA+BOT-+2.0;Creado+por+Félix+Manuel;💎🩵+MakimaBot🩵💎;💎🩵MakimaBot🩵💎)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Este+es+el+Repositorio+de+MELIODAS+BOT-+2.0;Creado+por+ 𝐇𝐚𝐫𝐯𝐚𝐤+OFC;👑🖤+Meliodasbot🖤👑;👑🖤Meliodasbot🖤👑)](https://git.io/typing-svg)
