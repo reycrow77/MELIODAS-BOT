@@ -33,10 +33,10 @@ const vid = ['https://files.catbox.moe/falp8a.mp4', 'https://files.catbox.moe/fa
 let menu = `¡Hola! *${taguser}* soy *Makima 2.0 ( ${(conn.user.jid == global.conn.user.jid ? 'OficialBot' : 'Prem-Bot')} ).* 
 
 ╭━━ I N F O-B O T━━
-┃Creador: 𓆩‌۫᷼ ִֶָღܾ݉͢ғ꯭ᴇ꯭፝ℓɪ꯭ͨא𓆪
+┃Creador:𝐇𝐚𝐫𝐯𝐚𝐤OFC👻
 ┃Tiempo activo: ${uptime}
 ┃Base: Oficial 
-┃Comandos: https://makima-bot-page.vercel.app/
+┃Comandos: https://meliodas-bot-page.vercel.app/
 ┃Registros: ${totalreg}
 ╰━━━━━━━━━━━━━
 
